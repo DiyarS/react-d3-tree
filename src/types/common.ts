@@ -9,6 +9,7 @@ export interface Point {
 }
 
 export interface RawNodeDatum {
+  _id: string;
   name: string;
   attributes?: Record<string, string>;
   children?: RawNodeDatum[];
